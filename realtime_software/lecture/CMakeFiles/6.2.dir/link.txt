@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/6.2.dir/6.2_pthread_mutex.c.o -o 6.2  -lpthread 

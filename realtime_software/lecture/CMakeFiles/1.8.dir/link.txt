@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/1.8.dir/1.8_pointers.c.o -o 1.8 

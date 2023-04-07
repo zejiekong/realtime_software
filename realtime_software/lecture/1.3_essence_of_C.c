@@ -16,9 +16,11 @@
 
 int main()
 {
+    int hi;
     enum week{Mon=0,Tue=1,Wed=3};
     int day = Mon;
     printf("%d\n",day); //format specifier %d
+    scanf("%d",&hi);
     return 0;
 }
 

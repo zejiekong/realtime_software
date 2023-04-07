@@ -48,6 +48,7 @@ int init(int argc, char *argv[])
                 if(amplitude <MIN_AMPLITUDE || amplitude > MAX_AMPLITUDE)
                 {
                     printf("%f not in amplitude range of %d to %d\n",amplitude,MIN_AMPLITUDE,MAX_AMPLITUDE);  
+                    print_help(argv[0]);
                     exit(1);
                 }
                 break;
@@ -57,6 +58,7 @@ int init(int argc, char *argv[])
                 if(frequency < MIN_FREQUENCY || frequency > MAX_FREQUENCY)
                 {
                     printf("%f not in frequency range of %d to %d\n",amplitude,MIN_FREQUENCY,MAX_FREQUENCY);
+                    print_help(argv[0]);
                     exit(1);
                 }
                 break;
@@ -75,11 +77,10 @@ int init(int argc, char *argv[])
                 if (match_found == 0)
                 {
                     printf("%s not a waveform option\n",waveform_type);
+                    print_help(argv[0]);
+                    exit(1);
                 }
-                else
-                {
-                    break;
-                }
+                break;
             case 'h':
                 print_help(argv[0]);
                 return 0;

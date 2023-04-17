@@ -12,4 +12,5 @@ add_executable(6.1 6.1_pthread_creation.c)
 target_link_libraries(6.1 pthread)
 add_executable(6.2 6.2_pthread_mutex.c)
 target_link_libraries(6.2 pthread)
+add_executable(7.1 7.1_messages.c)
 

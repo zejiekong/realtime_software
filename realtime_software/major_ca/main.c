@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <termios.h>
 #include <getopt.h>
-#include "start.h"
+#include <unistd.h>
+#include "keyboard.h"
 
-int main(int argc,char* argv[])
+int main()
 {
-    init(argc,argv);
+    keyboard();
 }

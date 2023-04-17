@@ -1,1 +1,1 @@
-add_executable(main main.c start.c start.h)
+add_executable(main main.c start.c keyboard.c)

@@ -23,6 +23,8 @@ void print_help(const char* program_name) {
     printf("  -a, --amplitude=AMPLITUDE   Set the waveform amplitude (default: %d)\n", DEFAULT_AMPLITUDE);
     printf("  -f, --frequency=FREQUENCY   Set the waveform frequency in Hz (default: %d)\n", DEFAULT_FREQUENCY);
     printf("  -h, --help                  Display this help message\n");
+    printf("E.g. ./main -w sine -a 3 -f 50\n");
+    printf("To generate sine wave with 3V amplitude and 50Hz frequency\n");
 }
 
 int init(int argc, char *argv[]) 

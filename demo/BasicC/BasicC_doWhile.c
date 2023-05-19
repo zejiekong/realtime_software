@@ -1,3 +1,5 @@
+// Execute first then assess the while condition. So code under do block will execute at least once. 
+
 #include <stdio.h>
 #include <stdlib.h>
 

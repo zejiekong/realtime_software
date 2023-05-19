@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/2.3.dir/2.3_args.c.o -o 2.3 

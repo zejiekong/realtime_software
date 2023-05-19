@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/2.1.dir/2.1_pointers_array.c.o -o 2.1 

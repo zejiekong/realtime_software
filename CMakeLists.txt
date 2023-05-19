@@ -4,3 +4,4 @@ project(realtime_software VERSION 0.0.1
                           LANGUAGES C)
 add_subdirectory(${CMAKE_PROJECT_NAME})
 add_subdirectory(examples)
+add_subdirectory(revision)

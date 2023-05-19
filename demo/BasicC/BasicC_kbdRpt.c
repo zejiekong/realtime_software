@@ -7,8 +7,8 @@ int main(){
 
 	for(i=0;i<50;i++){
 		c=getchar();
-		if(c==EOF) break;
-		if(c=='\n') continue;
+		if(c==EOF) break; // EOF is same as ctrl D
+		if(c=='\n') continue; // \n same as enter key
 
 		switch(c){
 			case ' ': n_spaces++;
